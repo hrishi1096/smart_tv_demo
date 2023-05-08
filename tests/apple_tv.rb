@@ -29,6 +29,7 @@ wait = Selenium::WebDriver::Wait.new(:timeout => 30)
 driver.screenshot_as(:base64)
 
 driver.execute_script('browserstack_executor: {"action": "setSessionStatus", "arguments": {"status":"passed", "reason":"Homepage screenshot taken - Test Passed"}}')
+puts "Homepage screenshot taken - Test Passed"
 
 driver.quit
 
