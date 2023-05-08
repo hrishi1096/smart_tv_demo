@@ -7,7 +7,7 @@ timestamp = time.strftime("%b-%d %H:%M:%S")
 
 desired_caps = {
     'project': 'Smart TV Sales demo',
-    'build': "Appium Apple TV : #{timestamp}",
+    'build': "Apple TV : #{timestamp}",
     'name': 'Apple tv',
     'deviceName': 'Apple TV 4k',
     'osVersion': '16.3',

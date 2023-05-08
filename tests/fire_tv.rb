@@ -7,7 +7,7 @@ timestamp = time.strftime("%b-%d %H:%M:%S")
 
 desired_caps = {
     'project': 'Smart TV Sales demo',
-    'build': "Appium Fire TV : #{timestamp}",
+    'build': "Fire TV : #{timestamp}",
     'name': 'Fire TV',
     'deviceName': 'Amazon Fire TV Stick 4K',
     'osVersion': '7.1',
