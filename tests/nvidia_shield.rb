@@ -30,6 +30,7 @@ wait = Selenium::WebDriver::Wait.new(:timeout => 30)
 end
 get_started_button = wait.until { driver.find_element(:id, "com.example.android.tvleanback:id/button_start") }
 get_started_button.click
+sleep 3
 menu_sideitems = wait.until { driver.find_elements(:id, "com.example.android.tvleanback:id/header_label") }
 menu_sideitems.first.click
 # Select the video thumbnail
