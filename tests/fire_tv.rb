@@ -12,7 +12,7 @@ desired_caps = {
     'deviceName': 'Amazon Fire TV Stick 4K',
     'osVersion': '7.1',
     'platformName': 'android',
-    'app': 'bs://61c3a6e98610863c5a9dcc9e9fd86f1ce2d92029',
+    'app': 'AndroidApp',
     'browserstack.networkLogs': true,
     'browserstack.debug': true
 }

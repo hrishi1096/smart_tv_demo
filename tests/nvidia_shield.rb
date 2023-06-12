@@ -12,7 +12,7 @@ desired_caps = {
     'deviceName': 'Nvidia Shield TV Pro 2019',
     'osVersion': '11.0',
     'platformName': 'android',
-    'app': 'bs://61c3a6e98610863c5a9dcc9e9fd86f1ce2d92029',
+    'app': 'AndroidApp',
     'browserstack.networkLogs': true,
     'browserstack.debug': true
 }

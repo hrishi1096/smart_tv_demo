@@ -13,7 +13,7 @@ desired_caps = {
     'osVersion': '16.3',
     'platformName': 'tvos',
     'automationName': 'xcuitest',
-    'app': 'bs://9384096bb99037d549fced7f06923a7eeaebe7ba',
+    'app': 'tvOSApp',
     'browserstack.networkLogs': true,
     'browserstack.debug': true
 }
